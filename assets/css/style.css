@@ -1,0 +1,51 @@
+body{
+    font-family: 'Bungee Spice', cursive;
+    background-color: #000000;
+}
+h1{
+font-family: 'New Rocker', cursive;
+text-align: center;
+}
+.nav{
+    overflow: hidden;
+}
+/* alterando caurosel */
+.carousel-inner,
+.carousel-item{
+    height: 80vh;
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.gallery{
+    min-height: 100vh;
+    padding: 60px 40px;
+}
+.gallery img{
+    background-color: #ffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    cursor: pointer;
+    transition: 5s;
+    width: 250px;
+    height: 250px;
+}
+.gallery img:hover{
+    transform: rotate(0);
+}
+/* .carousel-item img{
+width: 850px;
+height: 850px;
+} */
+.left-rotate{ transform: rotate(-7deg);}
+.right-rotate{transform: rotate(7deg);}
+
+.video{
+    width: 100%;
+}
+
+.text-align-center{
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Criar Conta</title>
+      
+     <!-- CSS do bs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Satisfy&display=swap" rel="stylesheet">
+  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=MedievalSharp&family=New+Rocker&family=Roboto&family=Satisfy&display=swap"
+        rel="stylesheet">
+      <!-- fim fonts -->
+       <!-- Bs icones -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/style.css">
+      
+
+</head>
+
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg bg-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html"><i class="bi bi-music-note-beamed bg-light"></i> Mymusic</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Shows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Login
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+              
+    <!-- Fim do menu -->
+  <main class="container">
+    <h1 class="bg-danger display-5 my-3 p-3">Criar Conta</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Guilherme de sá</li>
+      </ol>
+    </nav>
+    <!-- formulario de cadastro -->
+    <form action="" method="post" name="conta" id="conta">
+
+      <div class="row">
+
+      <div class="col-md-4 my-2">
+      <label for="" class="form-label">Usuario</label>
+      <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ex fulano de tal"
+      minlength="10" maxlength="20" required>
+    </div>
+      
+
+        <div class="col-md-4 my-2">
+          <label for=" senha" class="form-label">Senha</label>
+          <input type="password"name="senha" id="senha" class="form-control"
+          placeholder="Ex 12345" minlength="10" max="15"required>
+        </div>
+       
+            <div class="col-md-4 my-2">
+              <label for="email" class="form-label">email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Ex seuemail@.com" minlength="10" max="15"
+                required>
+            </div>
+
+              <div class="col-md-4 my-2">
+                <label for="data" class="form-label">data do cadastro</label>
+                <input type="date" class="form-control" id="data" name="data"required>
+                 
+              </div>
+                  <div class="col-md-4 my-2">
+                    <p>Tipo de conta</p>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="TipoConta" id="conta1" value="option1">
+                      <label class="form-check-label" for="conta1">free</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="TipoConta" id="conta2" value="option2">
+                      <label class="form-check-label" for="conta2">premium</label>
+                    </div>
+
+                    <div class="col-12 my-2">
+                      <label for="mensagem">Quem é voce</label>
+
+                      <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Ex eu sou fulano de tal"></textarea>
+                    </div>
+                      <div class="col-12 my-2 d-flex justify-content-end">
+                        <button class="btn btn-dark" type="submit">Criar conta</button>
+                      </div>
+
+                
+            </div>
+    </form>
+
+    
+    </main>
+</body>
+
+</html>
+
