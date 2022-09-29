@@ -7,13 +7,8 @@
     <title>MyMusic</title>
       
      <!-- CSS do bs -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Satisfy&display=swap" rel="stylesheet">
-  
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=MedievalSharp&family=New+Rocker&family=Roboto&family=Satisfy&display=swap"
-        rel="stylesheet">
+     <!-- fonte titulo -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
       <!-- fim fonts -->
        <!-- Bs icones -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -27,9 +22,9 @@
 
 <body>
     <!-- Menu de Navegação -->
-<nav class="navbar navbar-expand-lg bg-dark ">
+<nav class="navbar navbar-expand-lg bg-light ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="bi bi-music-note-beamed text-light"></i> Mymusic</a>
+    <a class="navbar-brand" href="#"><i class="bi bi-music-note-beamed text-dark"></i> Mymusic</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
@@ -47,7 +42,7 @@
             </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Shows</a>
+          <a class="nav-link active " aria-current="page" href="#">Shows</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Videos</a>
@@ -58,14 +53,10 @@
 </nav>
               
     <!-- Fim do menu -->
- <main class="container">
+<main class="container">
      <h1 class="bg-danger display-4 my-3 p-5">Mymusic Guilherme de Sá</h1>
      <p class="lead">Guilherme de Sá é um cantor, compositor, escritor, produtor musical e arranjador
-    brasileiro, mais conhecido por ter sido vocalista da banda Rosa de Saron Após sua saída da banda, avisou em suas redes sociais uma pausa na carreira para se dedicar mais à família,seus fãs se mobilizaram a fim de que ele não abandonasse a carreira No dia 17 de dezembro de 2019, lançou o álbum Diminuto, parte 1, a primeira parte do projeto Diminuto anunciado pelo
-    cantor em suas redes sociais. O álbum conta com um repertório de sete canções, entre elas, "Sereno", com a participação
-    especial de André Leite. A canção foi muito bem aceita pelo seus fãs e ganhou seu próprio videoclipe. O álbum foi
-    produzido pelo próprio cantor e distribuído pela gravadora Flora Music, Em 2021, lançou o álbum Fermata XI. 
-    Guilherme também é escritor..</p>
+    brasileiro, mais conhecido por ter sido vocalista da banda Rosa de Saron </p>
 
      <a href=""class="btn btn-dark">Mais informações</a>
 
@@ -78,7 +69,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
+        </div> 
 
 
         <div class="carousel-inner">
@@ -123,16 +114,17 @@
                 </div>
             </div>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-         <div class="row">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>  
+        </div>
+
+        <div class="row">
             <!-- primeiro card -->
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
                 <div class="card">
@@ -229,42 +221,81 @@
                     <img src="./assets/imagens/fotos finais 2.jpg" alt=" banda rosa de saron" class="img-fluid gallery-item">
                     <!-- segunda -->
                 </div>
-                    <div class="col">
+
+                <div class="col">
                     <img src="./assets/imagens/imagem 3.jpg" alt=" banda rosa " class="img-fluid gallery-item">
-                    
+                
+                </div>
+                <!-- terceira -->
+                <div class="col">
+                    <img src="./assets/imagens/fotos finais.jpg" alt=" banda x" class="img-fluid gallery-item">
+                <!-- quarta -->
+                </div>
+
+                <div class="col">
+                    <img src="./assets/imagens/imagem 4.jpg" alt=" banda y" class="img-fluid gallery-item">
+                    <!-- quinta -->
                     </div>
-                    <!-- terceira -->
                         <div class="col">
-                        <img src="./assets/imagens/fotos finais.jpg" alt=" banda x" class="img-fluid gallery-item">
-                        <!-- quarta -->
+                        <img src="./assets/imagens/imagem 5.jpg" alt=" banda a" class="img-fluid gallery-item">
+                        <!-- sexta -->
                         </div>
                             <div class="col">
-                            <img src="./assets/imagens/imagem 4.jpg" alt=" banda y" class="img-fluid gallery-item">
-                            <!-- quinta -->
-                            </div>
-                                <div class="col">
-                                <img src="./assets/imagens/imagem 5.jpg" alt=" banda a" class="img-fluid gallery-item">
-                                <!-- sexta -->
+                            <img src="./assets/imagens/guilherme lindo.webp" alt=" banda b" class="img-fluid gallery-item">
+                        </div>
+                    </div>
+
+               
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                    <div class="col">
-                                    <img src="./assets/imagens/guilherme lindo.webp" alt=" banda b" class="img-fluid gallery-item">
-                                    </div>
-                                    </div>
+                                <div class="modal-body">
+                               <img src="" alt="Banda Rosa de Saron" class="modal-img">
+                                <!-- </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
             </section>
-
-
-         </div>
-       
+        <footer class="bg-dark text-light">
+            <div class="container-fluid py-3">
+                <div class="row">
+                    <div class="col-4">
+                        <ul class="nav flex-column">
+                            <li class="nav-link"><a href="#">Meu nome Laís Cristina</a></li>                         
+                            <li class="nav-link"><a href="#">Agradecimentos</a></li>                         
+                        </ul>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            Esse é o primeiro de muitos projetos que farei com dedicação e empenho,para sempre melhorar no meu trabalho, esse projeto teve ajuda de meu mais terno amigo Eduardo Rocha muito obrigada e que novos tempos que estão chegando sejam para uma vida melhor..
+                        </p>
+                        <ul class="nav">
+                            <li class="nav-link"><i class="fab fa-facebook fa-3x "></i></li>
+                            <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+                            <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+                            <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-                  
-        </div>
+            <div class="text-center" style="background-color: #333; padding: 20px;">
+                &copy 2022 Copyright: <a href="#"></a>
+            </div>
+        </footer>
 
-
-    </main>
-   
-  
+        </div>
+    </div>
+</main>
 
 
       <!-- JS do bs -->
@@ -273,6 +304,7 @@
         crossorigin="anonymous"></script>
 
         <script src="./assets/js/addclass.js"></script>
+        <script src="./assets/js/modal.js"></script>
 </body>
 
 </html>

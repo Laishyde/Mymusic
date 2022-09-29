@@ -1,14 +1,15 @@
 body{
-    font-family: 'Bungee Spice', cursive;
-    background-color: #000000;
+font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
 }
 h1{
-font-family: 'New Rocker', cursive;
+font-family: 'Poppins', sans-serif;
 text-align: center;
 }
 .nav{
     overflow: hidden;
 }
+
 /* alterando caurosel */
 .carousel-inner,
 .carousel-item{
@@ -49,3 +50,11 @@ height: 850px;
 .text-align-center{
     text-align: center;
 }
+.carousel-item img {
+ width: 550px;
+ height: 550px;
+
+}
+
+
+
