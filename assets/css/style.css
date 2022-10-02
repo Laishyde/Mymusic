@@ -32,6 +32,7 @@ textarea{
     transition: 5s;
     width: 250px;
     height: 250px;
+    
 }
 .gallery img:hover{
     transform: rotate(0);
